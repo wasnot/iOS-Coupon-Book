@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6CF43219D23DA40029F52D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6CF43119D23DA40029F52D /* Foundation.framework */; };
+		AB6CF43419D23DA40029F52D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6CF43319D23DA40029F52D /* CoreGraphics.framework */; };
+		AB6CF43619D23DA40029F52D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6CF43519D23DA40029F52D /* UIKit.framework */; };
+		AB6CF43C19D23DA40029F52D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB6CF43A19D23DA40029F52D /* InfoPlist.strings */; };
+		AB6CF43E19D23DA40029F52D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6CF43D19D23DA40029F52D /* main.m */; };
+		AB6CF44219D23DA40029F52D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6CF44119D23DA40029F52D /* AppDelegate.m */; };
+		AB6CF44519D23DA40029F52D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6CF44319D23DA40029F52D /* Main_iPhone.storyboard */; };
+		AB6CF44819D23DA40029F52D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6CF44619D23DA40029F52D /* Main_iPad.storyboard */; };
+		AB6CF44B19D23DA40029F52D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6CF44A19D23DA40029F52D /* FirstViewController.m */; };
+		AB6CF44E19D23DA40029F52D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6CF44D19D23DA40029F52D /* SecondViewController.m */; };
+		AB6CF45019D23DA40029F52D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6CF44F19D23DA40029F52D /* Images.xcassets */; };
+		AB6CF45719D23DA40029F52D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6CF45619D23DA40029F52D /* XCTest.framework */; };
+		AB6CF45819D23DA40029F52D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6CF43119D23DA40029F52D /* Foundation.framework */; };
+		AB6CF45919D23DA40029F52D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6CF43519D23DA40029F52D /* UIKit.framework */; };
+		AB6CF46119D23DA40029F52D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB6CF45F19D23DA40029F52D /* InfoPlist.strings */; };
+		AB6CF46319D23DA40029F52D /* CouponBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6CF46219D23DA40029F52D /* CouponBookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB6CF45A19D23DA40029F52D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6CF42619D23DA30029F52D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6CF42D19D23DA40029F52D;
+			remoteInfo = CouponBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB6CF42E19D23DA40029F52D /* CouponBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouponBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6CF43119D23DA40029F52D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB6CF43319D23DA40029F52D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB6CF43519D23DA40029F52D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB6CF43919D23DA40029F52D /* CouponBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CouponBook-Info.plist"; sourceTree = "<group>"; };
+		AB6CF43B19D23DA40029F52D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB6CF43D19D23DA40029F52D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB6CF43F19D23DA40029F52D /* CouponBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CouponBook-Prefix.pch"; sourceTree = "<group>"; };
+		AB6CF44019D23DA40029F52D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB6CF44119D23DA40029F52D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB6CF44419D23DA40029F52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		AB6CF44719D23DA40029F52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		AB6CF44919D23DA40029F52D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AB6CF44A19D23DA40029F52D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AB6CF44C19D23DA40029F52D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AB6CF44D19D23DA40029F52D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AB6CF44F19D23DA40029F52D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB6CF45519D23DA40029F52D /* CouponBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouponBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6CF45619D23DA40029F52D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AB6CF45E19D23DA40029F52D /* CouponBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CouponBookTests-Info.plist"; sourceTree = "<group>"; };
+		AB6CF46019D23DA40029F52D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB6CF46219D23DA40029F52D /* CouponBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouponBookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6CF42B19D23DA40029F52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6CF43419D23DA40029F52D /* CoreGraphics.framework in Frameworks */,
+				AB6CF43619D23DA40029F52D /* UIKit.framework in Frameworks */,
+				AB6CF43219D23DA40029F52D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6CF45219D23DA40029F52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6CF45719D23DA40029F52D /* XCTest.framework in Frameworks */,
+				AB6CF45919D23DA40029F52D /* UIKit.framework in Frameworks */,
+				AB6CF45819D23DA40029F52D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB6CF42519D23DA30029F52D = {
+			isa = PBXGroup;
+			children = (
+				AB6CF43719D23DA40029F52D /* CouponBook */,
+				AB6CF45C19D23DA40029F52D /* CouponBookTests */,
+				AB6CF43019D23DA40029F52D /* Frameworks */,
+				AB6CF42F19D23DA40029F52D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6CF42F19D23DA40029F52D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6CF42E19D23DA40029F52D /* CouponBook.app */,
+				AB6CF45519D23DA40029F52D /* CouponBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6CF43019D23DA40029F52D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB6CF43119D23DA40029F52D /* Foundation.framework */,
+				AB6CF43319D23DA40029F52D /* CoreGraphics.framework */,
+				AB6CF43519D23DA40029F52D /* UIKit.framework */,
+				AB6CF45619D23DA40029F52D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB6CF43719D23DA40029F52D /* CouponBook */ = {
+			isa = PBXGroup;
+			children = (
+				AB6CF44019D23DA40029F52D /* AppDelegate.h */,
+				AB6CF44119D23DA40029F52D /* AppDelegate.m */,
+				AB6CF44319D23DA40029F52D /* Main_iPhone.storyboard */,
+				AB6CF44619D23DA40029F52D /* Main_iPad.storyboard */,
+				AB6CF44919D23DA40029F52D /* FirstViewController.h */,
+				AB6CF44A19D23DA40029F52D /* FirstViewController.m */,
+				AB6CF44C19D23DA40029F52D /* SecondViewController.h */,
+				AB6CF44D19D23DA40029F52D /* SecondViewController.m */,
+				AB6CF44F19D23DA40029F52D /* Images.xcassets */,
+				AB6CF43819D23DA40029F52D /* Supporting Files */,
+			);
+			path = CouponBook;
+			sourceTree = "<group>";
+		};
+		AB6CF43819D23DA40029F52D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB6CF43919D23DA40029F52D /* CouponBook-Info.plist */,
+				AB6CF43A19D23DA40029F52D /* InfoPlist.strings */,
+				AB6CF43D19D23DA40029F52D /* main.m */,
+				AB6CF43F19D23DA40029F52D /* CouponBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB6CF45C19D23DA40029F52D /* CouponBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB6CF46219D23DA40029F52D /* CouponBookTests.m */,
+				AB6CF45D19D23DA40029F52D /* Supporting Files */,
+			);
+			path = CouponBookTests;
+			sourceTree = "<group>";
+		};
+		AB6CF45D19D23DA40029F52D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB6CF45E19D23DA40029F52D /* CouponBookTests-Info.plist */,
+				AB6CF45F19D23DA40029F52D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6CF42D19D23DA40029F52D /* CouponBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6CF46619D23DA40029F52D /* Build configuration list for PBXNativeTarget "CouponBook" */;
+			buildPhases = (
+				AB6CF42A19D23DA40029F52D /* Sources */,
+				AB6CF42B19D23DA40029F52D /* Frameworks */,
+				AB6CF42C19D23DA40029F52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CouponBook;
+			productName = CouponBook;
+			productReference = AB6CF42E19D23DA40029F52D /* CouponBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB6CF45419D23DA40029F52D /* CouponBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6CF46919D23DA40029F52D /* Build configuration list for PBXNativeTarget "CouponBookTests" */;
+			buildPhases = (
+				AB6CF45119D23DA40029F52D /* Sources */,
+				AB6CF45219D23DA40029F52D /* Frameworks */,
+				AB6CF45319D23DA40029F52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6CF45B19D23DA40029F52D /* PBXTargetDependency */,
+			);
+			name = CouponBookTests;
+			productName = CouponBookTests;
+			productReference = AB6CF45519D23DA40029F52D /* CouponBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6CF42619D23DA30029F52D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Wasnot Apps";
+				TargetAttributes = {
+					AB6CF45419D23DA40029F52D = {
+						TestTargetID = AB6CF42D19D23DA40029F52D;
+					};
+				};
+			};
+			buildConfigurationList = AB6CF42919D23DA30029F52D /* Build configuration list for PBXProject "CouponBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB6CF42519D23DA30029F52D;
+			productRefGroup = AB6CF42F19D23DA40029F52D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6CF42D19D23DA40029F52D /* CouponBook */,
+				AB6CF45419D23DA40029F52D /* CouponBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB6CF42C19D23DA40029F52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6CF44819D23DA40029F52D /* Main_iPad.storyboard in Resources */,
+				AB6CF45019D23DA40029F52D /* Images.xcassets in Resources */,
+				AB6CF44519D23DA40029F52D /* Main_iPhone.storyboard in Resources */,
+				AB6CF43C19D23DA40029F52D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6CF45319D23DA40029F52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6CF46119D23DA40029F52D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6CF42A19D23DA40029F52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6CF44E19D23DA40029F52D /* SecondViewController.m in Sources */,
+				AB6CF44219D23DA40029F52D /* AppDelegate.m in Sources */,
+				AB6CF44B19D23DA40029F52D /* FirstViewController.m in Sources */,
+				AB6CF43E19D23DA40029F52D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6CF45119D23DA40029F52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6CF46319D23DA40029F52D /* CouponBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB6CF45B19D23DA40029F52D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6CF42D19D23DA40029F52D /* CouponBook */;
+			targetProxy = AB6CF45A19D23DA40029F52D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB6CF43A19D23DA40029F52D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6CF43B19D23DA40029F52D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB6CF44319D23DA40029F52D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6CF44419D23DA40029F52D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AB6CF44619D23DA40029F52D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6CF44719D23DA40029F52D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AB6CF45F19D23DA40029F52D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6CF46019D23DA40029F52D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB6CF46419D23DA40029F52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB6CF46519D23DA40029F52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB6CF46719D23DA40029F52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CouponBook/CouponBook-Prefix.pch";
+				INFOPLIST_FILE = "CouponBook/CouponBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB6CF46819D23DA40029F52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CouponBook/CouponBook-Prefix.pch";
+				INFOPLIST_FILE = "CouponBook/CouponBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB6CF46A19D23DA40029F52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CouponBook.app/CouponBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CouponBook/CouponBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CouponBookTests/CouponBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB6CF46B19D23DA40029F52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CouponBook.app/CouponBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CouponBook/CouponBook-Prefix.pch";
+				INFOPLIST_FILE = "CouponBookTests/CouponBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6CF42919D23DA30029F52D /* Build configuration list for PBXProject "CouponBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6CF46419D23DA40029F52D /* Debug */,
+				AB6CF46519D23DA40029F52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6CF46619D23DA40029F52D /* Build configuration list for PBXNativeTarget "CouponBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6CF46719D23DA40029F52D /* Debug */,
+				AB6CF46819D23DA40029F52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB6CF46919D23DA40029F52D /* Build configuration list for PBXNativeTarget "CouponBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6CF46A19D23DA40029F52D /* Debug */,
+				AB6CF46B19D23DA40029F52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6CF42619D23DA30029F52D /* Project object */;
+}
